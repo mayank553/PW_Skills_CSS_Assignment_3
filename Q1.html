@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .box {
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+        border: 1px solid black;
+      }
+      #boxA {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+      }
+      #boxB {
+        position: absolute;
+        left: -30px;
+        bottom: 30px;
+      }
+      #boxC {
+        position: absolute;
+        right: -30px;
+        bottom: 30px;
+      }
+
+      #boxD {
+        position: absolute;
+        left: -30px;
+        bottom: -30px;
+      }
+
+      #boxE {
+        position: absolute;
+        right: -30px;
+        bottom: -30px;
+      }
+
+      p {
+        text-align: center;
+        font-size: x-large;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="boxA" class="box">
+      <p>A</p>
+
+      <div id="boxB" class="box"><p>B</p></div>
+
+      <div id="boxC" class="box"><p>C</p></div>
+
+      <div id="boxD" class="box"><p>D</p></div>
+
+      <div id="boxE" class="box"><p>E</p></div>
+    </div>
+  </body>
+</html>

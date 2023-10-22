@@ -1,0 +1,9 @@
+Relative Positioning: 
+    a) If we want to move an element on the web page and does not want other elements to take its place, in such a scenario we can use relative position property. 
+    
+    b) One more feature of this is, it moves from left, top, bottom, right with respect to its own position.
+
+Absolute Positioning:
+    a) If we want to move an element on the web page and  want other elements to take its place, in such a scenario we can use absolute position property. 
+
+    b) One more feature of this is, it moves from left, top, bottom, right with respect to its parent's position.
